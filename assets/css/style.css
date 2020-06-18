@@ -1,0 +1,114 @@
+/* view mobile */
+body {
+font-family:'Montserrat';
+}
+.wrap-content{
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+.navbar-brand {
+    font-weight: 600;
+}
+.nav-item {
+font-size: 14;
+font-weight: 600;
+color : #3c3c3c !important;
+margin-right: 24px;
+}
+.nav-item.active{
+    color: grey!important;
+}
+.nav-item:hover {
+    color: grey !important;
+}
+.jumbotron{
+    height: 360px;
+    background-image: url(../img/jumbotron/4.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -70px;
+}
+.navbar{
+    background-color: white !important;
+}
+.text-jumbotron{
+    margin-top: 110px;
+    color: white;
+}
+.text-jumbotron h1{
+    font-weight: 400;
+    font-size: 24px;
+}
+.text-jumbotron p{
+    font-size: 14px;
+}
+.service h6{
+    font-weight: 600;
+}
+.paragraph{
+    font-size: 14px;
+    color: grey;
+}
+footer{
+margin-top: 200px;
+margin-bottom: 0px;
+text-align: center;
+font-weight: 400;
+color: grey;
+}
+
+/*custom-color*/
+ .bg-ungu {
+   background-color: #483D8B!important;
+   border: 0;
+ }
+.text-bold{
+    font-weight: 600 !important;
+}
+.content-image{
+    height: 64px;
+    width: 64px;
+   background-color: grey !important;
+   border-radius: 50%;
+   padding: 20px;
+   margin: auto;
+}
+.icon{
+    font-size: 26px;
+    color: white;
+}
+ /*view desktop*/
+@media (min-width: 992px) {
+.navbar{
+        background-color: transparent !important;
+        color: #3c3c3c;
+    }
+.navbar-brand{
+    color : white !important;
+    }
+
+.nav-item{
+    color : white !important;
+    }
+.jumbotron{
+        height: 460px;
+        background-image: url(../img/jumbotron/4.jpg) ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -70px;
+    }
+.text-jumbotron{
+        margin-top: 100px;
+        text-align: center;
+    }     
+.text-jumbotron h1{
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 100px;
+}
+.text-jumbotron p{
+    font-size: 18px;
+}
+}
